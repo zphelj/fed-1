@@ -1,0 +1,89 @@
+/* Mobile layout first */
+.topgrid{
+    display:grid;
+    width: 95fw;
+    grid-template-columns: 90fw;
+    border: 5px solid green;
+    border-radius: 1rem;
+    grid-template-areas:
+      "navbar"
+      "content"
+      "footer";
+}
+
+.navbar{
+  grid-area: navbar;
+  color: red;
+  text-align: center;
+}
+
+.footer{
+  grid-area: footer;
+  text-align: center;
+  /* height: 50px; */
+}
+
+.content{
+  grid-area: content;
+  display: flex;
+  flex-direction: column;
+  /* margin: auto; if enabled this causes the elements to min size instead of spanning */
+  row-gap: 5px;
+}
+
+.postcard{
+  border: 1px solid blueviolet;
+  background: lightblue;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 5px;
+}
+
+.logoimg{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10%;
+  height: 125px;
+}
+
+.logo{
+  background-color: red;
+  text-align: center;
+}
+
+.subscribe {
+  background-color: skyblue;
+  color: red;;
+}
+
+.bloggrid{
+  display:grid;
+  width: 95fw;
+  grid-template-columns: 90fw;
+  grid-gap: 5px;
+  border: 2px solid green;
+  border-radius: 1rem;
+  grid-template-areas:
+  "header"
+  "author"
+  "social";
+}
+
+.header{
+grid-area: header;
+color: #f01010;
+text-align: center;
+}
+
+.author{
+grid-area: author;
+display: flex;
+flex-direction: column;
+}
+
+.social{
+  grid-area: social;
+  color: #f01010;
+  text-align: center;
+}

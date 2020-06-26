@@ -1,0 +1,18 @@
+/* Wider layout */
+@media(min-width:901px){
+  body{
+    background: lightseagreen;
+  }
+
+  .content{
+    grid-area: content;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+  }
+
+  .postcard{  /* limit the width of the element on wider screens */
+    border: 1px solid blueviolet;
+    width: 200px;
+  }
+}

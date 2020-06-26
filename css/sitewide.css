@@ -1,0 +1,20 @@
+/* basics first */
+body {
+  margin: 2rem;
+  font: 14px system-ui;
+  background: lightyellow;
+}
+
+h1 {
+  font: 24px system-ui;
+  font-weight: bold;
+}
+
+h2 {
+  font: 20px system-ui;
+  font-weight: bold;
+}
+
+h3 {
+  font: 16px system-ui;
+}
