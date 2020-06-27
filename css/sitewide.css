@@ -18,3 +18,15 @@ h2 {
 h3 {
   font: 16px system-ui;
 }
+
+.emphasize{
+  font-style: italic;
+}
+
+.propname{
+  text-decoration: underline;
+}
+
+.share{
+  font-weight: bold;
+}
